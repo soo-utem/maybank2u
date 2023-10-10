@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'maybank2u'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2BEAAAADF2B74E509D0A4A744A3FA6EB }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5850A529023B488ABEF93547C545675F }}
           package: .
