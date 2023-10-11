@@ -3,7 +3,9 @@ const app = express()
 const port = process.env.PORT || 3000;
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://soo:wgDGNihzILPCiMbr@cluster0.j77yadh.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://soo:nh8pkBMjVjkDH4En@cluster0.nehnjjb.mongodb.net/?retryWrites=true&w=majority"
+
+//mongodb+srv://soo:wgDGNihzILPCiMbr@cluster0.j77yadh.mongodb.net/?retryWrites=true&w=majority";
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
    serverApi: {
